@@ -20,7 +20,10 @@ export const registrar = (email, password) => {
    }
   export const loginGoogle = () => {
    const provider = new firebase.auth.GoogleAuthProvider();
-   return firebase.auth().signInWithPopup(provider)
+   return firebase.auth().signInWithPopup(provider).catch(e => {
+     console.log(e);
+     
+   })
   }
   
   export const loginFacebook = () => {

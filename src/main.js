@@ -3,7 +3,7 @@ import { initRouter } from "./router.js";
 
 const init = () => {
   const config = {
-    apiKey: "AIzaSyAq4Nw0xlHrJJlb-txohnMEkHZzxOpkxCk",
+    apiKey: "AIzaSyAVw2QO-ZXpavk15DQfsGOyzN9dXH5424k",
     authDomain: "usuarios-28a17.firebaseapp.com",
     databaseURL: "https://usuarios-28a17.firebaseio.com",
     projectId: "usuarios-28a17",
